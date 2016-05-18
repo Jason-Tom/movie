@@ -1,0 +1,15 @@
+.box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.item {
+    display: inline;
+    background-color: yellow;
+    /*百分比还要考虑空白边距离，当百分比分配的总距离大于总长减去空白边，就会换行*/
+    width: 20%;
+    height:200px;
+    margin: 5px;
+}
