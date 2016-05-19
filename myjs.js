@@ -2,6 +2,9 @@ new Vue({
     // #表示指定id，没有#表示指定标签
     el: "body",
     data: {
+        item_css: {
+
+        },
         subjects: [{
             rate: "7.3",
             cover_x: 690,
